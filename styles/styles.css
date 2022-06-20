@@ -79,7 +79,7 @@ body {
 .footer{
   grid-area: footer;
   border: solid;
-  background-color:#00b33c;
+  background-color:#039634;
   padding: 01rem;
   text-align: center;
   margin: 1rem;
@@ -89,7 +89,7 @@ header{
   margin: 1rem;
   grid-area: header;
   border: solid;
-  background-color:#00b33c;
+  background-color:#039634;
   padding: 01rem;
   text-align: center;
 }
@@ -100,12 +100,18 @@ header{
 }
 
 .pages{
+  background-image: linear-gradient(to bottom, rgb(0, 75, 0), rgb(2, 133, 35)  );
   border: solid 1px black;
   padding: 5px;
   display: inline-block;
   justify-content: space-between;
   font-size: 20px;
   font-family: Arial;
+  transition: border 700ms;
+}
+.pages:hover {
+  border:solid 2px white;
+  
 }
 
 .productos{
